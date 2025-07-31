@@ -1,6 +1,6 @@
 <?php
 // Configurações
-$containerUrl = "https://galeriapedro01.blob.core.windows.net/imagens";
+$containerUrl = "https://galeriapedro01.blob.core.windows.net/imagens?sp=rcwl&st=2025-07-31T17:58:50Z&se=2025-08-01T02:13:50Z&spr=https&sv=2024-11-04&sr=c&sig=Td3vtwuHt7uOjs16ZaRqQO3zZoPL1%2FJYIb5pY6%2Bf1AA%3D";
 $pagina = isset($_GET['pagina']) ? (int)$_GET['pagina'] : 1;
 $porPagina = 16;
 
